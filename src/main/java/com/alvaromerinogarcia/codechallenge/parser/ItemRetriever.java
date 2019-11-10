@@ -25,7 +25,7 @@ public class ItemRetriever {
 
     private static Matcher matcherFind(String line) {
         Matcher m = ITEM_PATTERN.matcher(line);
-        m.find()
+        m.find();
         return m;
     }
 
