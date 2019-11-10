@@ -1,6 +1,9 @@
 # SalesTax_CodeChallenge
+Build status:  
 [![Build Status](https://travis-ci.org/alvaromerino/SalesTax_CodeChallenge.svg?branch=master)](https://travis-ci.org/alvaromerino/SalesTax_CodeChallenge)
 
+Test coverage:  
+[![codecov](https://codecov.io/gh/alvaromerino/SalesTax_CodeChallenge/branch/master/graph/badge.svg)](https://codecov.io/gh/alvaromerino/SalesTax_CodeChallenge)
 
 ## PROBLEM: SALES TAXES
 
