@@ -1,4 +1,6 @@
 # SalesTax_CodeChallenge
+[![Build Status](https://travis-ci.org/alvaromerino/SalesTax_CodeChallenge.svg?branch=master)](https://travis-ci.org/alvaromerino/SalesTax_CodeChallenge)
+
 
 ## PROBLEM: SALES TAXES
 
