@@ -72,3 +72,47 @@ Write an application that prints out the receipt details for these shopping bask
     Sales Taxes: 6.70
 
     Total: 74.68  
+
+## Solution
+
+- Solved using Decorator design pattern for add dynamic pricing with tax calculation
+- ShoppingBasket class has a LinkedHashMap<Item, Integer> to store the items added to the basket and its amount.
+- Read data from "data" folder files.
+- An item is imported if contains "imported" keyword in its name.
+- Exempt items are defined in Utilities class as LinkedHashMap<ItemType, Set<String>> ITEM_TYPES_BY_KEYWORDS
+
+
+
+## Getting Started
+
+### Prerequisites
+
+- Java 8 (JDK)
+- Maven 3
+
+
+### Compile and build
+```
+mvn clean package
+```
+
+### Run it
+
+We have two ways to run the program once packaged. From the project folder:
+
+- Do not pass arguments, and the program scans and executes all cases stored in "data" folder
+    ```
+    java -jar target/SalesTaxCodeChallenge-1.0.jar
+    ```
+
+- Pass arguments, and the program execute all the cases passed as args.
+    ```
+    java -jar target/SalesTaxCodeChallenge-1.0.jar 001.txt 002.txt 003.txt
+    ```
+
+## Running the tests
+
+From the project folder:
+```
+mvn clean test
+```
